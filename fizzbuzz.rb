@@ -4,13 +4,13 @@
 def fizzbuzz(input)
   input = input.to_i
   
-  if input = 3
+  if input = 3 = fizz_3
     puts "Fizz"
-  elsif input = 5
+  elsif input = 5 = fizz_5
     puts "Buzz"
-  elsif input = 15
+  elsif input = 15 = fizz_15
     puts "FizzBuzz"
-  else input = 4
+  else input = 4 = fizz_4
     puts "nil"
   end
 end
