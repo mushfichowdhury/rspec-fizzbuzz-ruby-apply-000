@@ -2,13 +2,13 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  if input = 3 || fizz_3
+  if int % 3 == 0
     puts "Fizz"
-  elsif input = 5 || fizz_5
+  elsif int % 5 == 0
     puts "Buzz"
-  elsif input = 15 || fizz_15
+  elsif int % 15 == 0
     puts "FizzBuzz"
-  else input = 4 || fizz_4
+  else int % 4 == 0
     puts "nil"
   end
 end
