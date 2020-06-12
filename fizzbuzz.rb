@@ -12,3 +12,5 @@ def fizzbuzz(int)
     puts "nil"
   end
 end
+
+fizz_3 = fizzbuzz(3)
