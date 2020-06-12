@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(input)
-  
   if input = 3 || fizz_3
     puts "Fizz"
   elsif input = 5 || fizz_5
