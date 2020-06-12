@@ -9,7 +9,7 @@ def fizzbuzz(input)
   elsif input == "5"
     puts "Buzz"
   elsif input == "15"
-    puts "Fizzbuzz"
+    puts "FizzBuzz"
   else input == "4"
     puts "nil"
   end
