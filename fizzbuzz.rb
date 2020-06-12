@@ -3,10 +3,7 @@
 
 def fizzbuzz(input)
   input = input.to_i
-  fizz_3 = fizzbuzz(3)
-  fizz_5 = fizzbuzz(5)
-  fizz_15 = fizzbuzz(15)
-  fizz_4 = fizzbuzz(4)
+  
   if input == "3"
     puts "Fizz"
   elsif input == "5"
@@ -18,3 +15,7 @@ def fizzbuzz(input)
   end
 end
 
+fizz_3 = fizzbuzz(3)
+fizz_5 = fizzbuzz(5)
+fizz_15 = fizzbuzz(15)
+fizz_4 = fizzbuzz(4)
