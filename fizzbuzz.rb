@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(input)
-  input = input.to_i
   
   if input = 3 || fizz_3
     puts "Fizz"
